@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png" />
+  <link rel="stylesheet" href="gmail.css" />
+  <title>starred</title>
+</head>
+
+<body>
+  <div id="container">
+    <!-- -------left-icon-start---------- -->
+    <div class="left-icon">
+      <div class="icon-bars">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div id="left-icons">
+        <ul id="left-icon-items">
+          <li class="items">
+            <i class="fa-solid fa-envelope left-li"></i>Mail
+          </li>
+          <li class="items">
+            <i class="fa-regular fa-message left-li"></i>Chat
+          </li>
+          <li class="items">
+            <i class="fa-solid fa-users left-li"></i>Spaces
+          </li>
+          <li class="items"><i class="fa-solid fa-video"></i>meet</li>
+        </ul>
+      </div>
+    </div>
+    <!-- -------left-icon-end---------- -->
+    <!-- -----left-side-first-navbar-start------ -->
+    <div class="left-side">
+      <div class="navbar">
+        <div class="logo">
+          <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-3-1.png" alt="logo" />
+        </div>
+      </div>
+      <div class="navbar-left">
+        <div class="h3">
+          <h3 class="sub-h3">
+            <i class="fa-solid fa-pencil Compose"></i>Compose
+          </h3>
+        </div>
+        <ul class="nav-menu-item">
+          <div class="side-nav-section">
+            <li class="nav-item">
+              <!-- ---link--- -->
+              <a href="./gmail.html"><i class="fa-solid fa-inbox nav-icon"></i>Inbox</a>
+            </li>
+            <li class="nav-item">
+              <!-- ---link--- -->
+              <a href="./starred.html"><i class="fa-regular fa-star nav-icon"></i>Starred</a>
+            </li>
+            <li class="nav-item">
+              <!-- ---link--- -->
+              <a href="./Snoozed.html"><i class="fa-regular fa-clock nav-icon"></i>Snoozed</a>
+            </li>
+            <li class="nav-item">
+              <!-- ---link--- -->
+              <a href="./gmail.html"><i class="fa-regular fa-paper-plane nav-icon"></i>Send</a>
+            </li>
+            <li class="nav-item">
+              <!-- ---link--- -->
+              <a href="./draft.html">
+                <i class="fa-regular fa-folder nav-icon"></i>Draft</a>
+            </li>
+            <li class="nav-item-more">
+              <div class="dropdown">
+                <a href="#">
+                  <i class="fa-solid fa-angle-down more"></i>More</a>
+                <div class="dropdown-list">
+                  <a href="#">
+                    <i class="fa-regular fa-envelope create-i"></i>All mail</a>
+                  <a href="#">
+                    <i class="fa-regular fa-trash-can create-i"></i>Bin</a>
+                  <a href="#"><i class="fa-solid fa-gear create-i"></i>Setting</a>
+                  <a href="#"><i class="fa-solid fa-plus create-i"></i>Create new
+                    label</a>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+        <!-- -----left-side-first-navbar-end----- -->
+        <div class="lables">
+          <h3>Labels</h3>
+          <div class="blank">blank</div>
+          <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- -----left-side-navbar-label-end------ -->
+    <div class="center-side">
+      <div class="header">
+        <div class="first-center">
+          <div id="search">
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="text" placeholder="Search in mail" required="" autocomplete="off" name="search" />
+            </div>
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+        </div>
+        <div class="second-center">
+          <div class="icon">
+            <i class="fa-regular fa-circle-question"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-gear nav-icon"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-braille"></i>
+          </div>
+        </div>
+      </div>
+      <div id="main-center-msg">
+        <div class="icons">
+          <div class="left-first">
+            <div>
+              <i class="fa-regular fa-square"></i>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div class="icons-second">
+            <p>1-50 of 3394</p>
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+        <div id="overflow">
+          <div class="inbox-1">
+            <ul id="ul">
+              <div class="user-group">
+                <li class="li">
+                  <a href="#"><i class="fa-solid fa-inbox sub-head"></i>Primary</a>
+                </li>
+              </div>
+              <div class="user-group">
+                <li class="li">
+                  <a href="#"><i class="fa-solid fa-user-group sub-head"></i>Social</a>
+                </li>
+              </div>
+              <div class="user-group">
+                <li class="li">
+                  <a href="#"><i class="fa-solid fa-tag sub-head"></i>Promotions</a>
+                </li>
+              </div>
+              <div class="user-group"></div>
+              <div class="user-group"></div>
+            </ul>
+          </div>
+          <div class="messege">
+            <div class="inbox-mail">
+              <div class="first-inbox">
+                <div class="mail-icon">
+                  <input type="checkbox" id="mail" name="mail" />
+                </div>
+                <div class="mail-icon">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Google</p>
+              </div>
+              <div class="second-inbox">
+                <!-- -----link-gmail-folder-account---- -->
+                <a href="./gmal-index.html" target="_blank">
+                  <p class="content">
+                    We noticed a new sign-in to your Google Account on a Windows
+                    device. If this was you, you don’t need to do anything. If
+                    not, we’ll help you secure your account.
+                  </p>
+                </a>
+              </div>
+              <div class="third-inbox">
+                <p>12.19 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="messege">
+            <div class="inbox-mail">
+              <div class="first-inbox">
+                <div class="mail-icon">
+                  <input type="checkbox" id="mail" name="mail" />
+                </div>
+                <div class="mail-icon">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Slack</p>
+              </div>
+              <div class="second-inbox">
+                <p class="content">
+                  We noticed a new sign-in to your Google Account on a Windows
+                  device. If this was you, you don’t need to do anything. If
+                  not, we’ll help you secure your account.
+                </p>
+              </div>
+              <div class="third-inbox">
+                <p>12.19 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="messege">
+            <div class="inbox-mail">
+              <div class="first-inbox">
+                <div class="mail-icon">
+                  <input type="checkbox" id="mail" name="mail" />
+                </div>
+                <div class="mail-icon">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>GitHub</p>
+              </div>
+              <div class="second-inbox">
+                <p class="content">
+                  A first-party GitHub OAuth application (Git Credential Manager) with gist, repo, and workflow scopes
+                  was recently authorized to access your account.
+                  Visit https://github.com/settings/connections/applications/0120e057bd645470c1ed for more information.
+                </p>
+              </div>
+              <div class="third-inbox">
+                <p>12.19 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="messege">
+            <div class="inbox-mail">
+              <div class="first-inbox">
+                <div class="mail-icon">
+                  <input type="checkbox" id="mail" name="mail" />
+                </div>
+                <div class="mail-icon">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Slack</p>
+              </div>
+              <div class="second-inbox">
+                <p class="content">
+                  We noticed a new sign-in to your Google Account on a Windows
+                  device. If this was you, you don’t need to do anything. If
+                  not, we’ll help you secure your account.
+                </p>
+              </div>
+              <div class="third-inbox">
+                <p>12.19 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------right-side-navbar-start--- -->
+    <div class="right-side">
+      <div class="right-image">
+        <img src="./assets/doremon.png" alt="doremon" />
+      </div>
+      <div class="right-icon-five">
+        <i class="fa-solid fa-calendar-days right-side-icons-items colorful"></i>
+        <i class="fa-regular fa-lightbulb right-side-icons-items yellow"></i>
+        <i class="fa-regular fa-circle-check right-side-icons-items blue"></i>
+        <i class="fa-regular fa-address-book right-side-icons-items blue-circle"></i>
+        <i class="fa-solid fa-plus right-side-icons-items plus"></i>
+      </div>
+    </div>
+    <!-- ------right-side-navbar-end-- -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%
+}
+.main-div{
+    width: 30%;
+    height: 50vh;
+    border: 1px solid gray;
+    margin: 2% auto;
+}
+h3{
+text-align: center;
+}
+.paar{
+    text-align: center;
+    padding: 0.5rem;
+}
+.para{
+    text-align: center;
+    padding: 1rem;
+}
+.para-end{
+    text-align: center;
+    padding: 0.5rem;
+}
+button{
+width: 5.5rem;
+height: 2rem;
+text-align: center;
+margin-left: 40%;
+background-color:  #1a73e8;
+color: white;
+border-radius: 0.5rem;
+border: none;
+}

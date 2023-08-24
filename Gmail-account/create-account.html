@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create-Gmail-Account</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="create-account.css" />
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <section>
+        <div class="gmail-account">
+            <div id="create-account">
+                <!-- ---create account-start-------- -->
+                <img src="./assets/google.png" alt="google" width="100px" height="50px" />
+                <p class="account-para">Create your Google Account</p>
+                <!-- ---------first-name-last--name-father -and-mother-name-start---------- -->
+                <div class="account-phone">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png" alt="india"
+                        width="25px" height="20px" />
+                    <i class="fa-solid fa-caret-down down-arrow"></i>
+                    <input type="number" class="Phone-Account" required="" autocomplete="off" />
+                    <p class="upper-heading-Phone-Account" id="upper-Phone-Account"><span>Phone Number</span></p>
+                    <label class="placeholder-account-phone" placeholder="Phone Number">Phone Number</label>
+                </div>
+                <div class="account-name">
+                    <input type="text" class="first-name" required="" autocomplete="off" />
+                    <p class="upper-heading" id="upper"><span>First name</span></p>
+                    <label class="placeholder" placeholder="First name">First name</label>
+                </div>
+                <div class="account-name-1">
+                    <input type="text" class="Last-name" required="" autocomplete="off" />
+                    <p class="upper-heading-1" id="upper-1"><span>Last name</span></p>
+                    <label class="place-holder" placeholder="Last name">Last name</label>
+                </div>
+                <div class="account-name">
+                    <input type="text" class="first-name" required="" autocomplete="off" />
+                    <p class="upper-heading" id="upper"><span>Father's name</span></p>
+                    <label class="placeholder" placeholder="First name">Father's name</label>
+                </div>
+                <div class="account-name-1">
+                    <input type="text" class="Last-name" required="" autocomplete="off" />
+                    <p class="upper-heading-1" id="upper-1">
+                        <span>Mother's name</span>
+                    </p>
+                    <label class="place-holder" placeholder="Mother's name">Mother's name</label>
+                </div>
+                <!-- ---------first-name-last--name-father -and-mother-name-end---------- -->
+                <!-- ----------date-of-birth-section-start---------- -->
+                <div class="date-of-birth">
+                    <select>
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>Aug</option>
+                        <option>Sept</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    <input type="text" placeholder="Day" class="day" />
+                    <input type="text" placeholder="Year" class="year" />
+                </div>
+                <!-- ----------date-of-birth-section-end---------- -->
+                <!-- ----------gender-section-start---------- -->
+                <div class="gender-selection">
+                    <select>
+                        <option>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <!-- ----------gender-section-end---------- -->
+                <!-- --------username-gmail-id-part-start------------ -->
+                <div class="user-name-input">
+                    <input type="text"
+                        placeholder="Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gmail.com" />
+                    <p class="user-name-para">You can use letters,number & periods</p>
+                    <p class="user-name-para-1">
+                        Use can use current email address instead
+                    </p>
+                </div>
+                <!-- --------username-gmail-id-part-end------------ -->
+                <!-- --------Password-or-confirm-part-start------------ -->
+                <div class="account-name">
+                    <input type="text" class="first-name" required="" autocomplete="off" />
+                    <p class="upper-heading" id="upper"><span>Password</span></p>
+                    <label class="placeholder" placeholder="First name">Password</label>
+                </div>
+                <div class="account-name-1">
+                    <input type="text" class="Last-name" required="" autocomplete="off" />
+                    <p class="upper-heading-1" id="upper-1">
+                        <span>Confirm</span>
+                    </p>
+                    <label class="place-holder" placeholder="Confirm">Confirm</label>
+                </div>
+
+                <p class="password-para">
+                    Use 8 or more characters with a mix of letters, numvers & symbols
+                </p>
+                <input type="checkbox" />Show password
+                <!-- --------Password-or-confirm-part-start------------ -->
+                <div class="sign-in-instead">
+                    <p>Sign in instead</p>
+                    <a href="./sign-in.html
+                    " target="_blank"> <button class="btn-next">Next</button></a>
+                </div>
+            </div>
+            <!-- ---create account-end-------- -->
+            <!-- ---------right-side-image-start--------- -->
+            <div class="right-google-img">
+                <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="google" />
+                <p class="right-google-para">One account All of Google working for you</p>
+                <a href="./password.html"><button class="btn-back">back</button></a>
+            </div>
+        </div>
+        <!-- ---------right-side-image-end--------- -->
+        <!-- ---footer account-start------- -->
+        <div class="list-country-language">
+            <div id="Language-list">
+                <input list="Language-lists" name="Language-assemble" placeholder="English(United States)" />
+                <datalist id="Language-lists">
+                    <option value="Afrikaans"></option>
+                    <option value="Basanski"></option>
+                    <option value="中国人"></option>
+                    <option value="Dasnk"></option>
+                    <option value="English(UK)"></option>
+                    <option value="English(united state)"></option>
+                    <option value="Filipino"></option>
+                    <option value="Galego"></option>
+                    <option value="与えられた"></option>
+                    <option value="indonesia"></option>
+                    <option value="Melayu	"></option>
+                    <option value="Portugues"></option>
+                    <option value="Romana"></option>
+                    <option value="Suami"></option>
+                    <option value="Hindi"></option>
+                    <option value="Nepali"></option>
+                    <option value="Punjabi"></option>
+                    <option value="Hindi"></option>
+                    <option value="தமிழ்"></option>
+                    <option value="বলগালি"></option>
+                    <option value="ਪੰਜਾਬੀ"></option>
+                    <option value="हिन्दी"></option>
+                    <option value="اردو"></option>
+                    <option value="ગુજરાતી"></option>
+                    <option value="türkmen"></option>
+                </datalist>
+            </div>
+            <div class="condition">
+                <a href="https://support.google.com/accounts?hl=en&visit_id=637959748198423426-3354622129&rd=2&p=account_iph#topic=3382296"
+                    target="_blank">
+                    <p>Help</p>
+                </a>
+                <a href="https://policies.google.com/privacy?gl=IN&hl=en" target="_blank">
+                    <p>privacy</p>
+                </a>
+                <a href="https://policies.google.com/terms?gl=IN&hl=en" target="_blank">
+                    <p>Terms</p>
+                </a>
+            </div>
+            <!-- ---footer account-end-------- -->
+        </div>
+    </section>
+</body>
+
+</html>
